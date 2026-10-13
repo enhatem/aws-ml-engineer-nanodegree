@@ -15,4 +15,8 @@ venv/
 
 # AWS/AutoGluon specific artifacts
 AutogluonModels/
-EOT
+
+project-2-ml-workflow-for-scones-unlimited/train/*.png
+project-2-ml-workflow-for-scones-unlimited/test/*.png
+project-2-ml-workflow-for-scones-unlimited/cifar-100-python/*
+project-2-ml-workflow-for-scones-unlimited/*.lst
