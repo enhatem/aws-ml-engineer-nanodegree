@@ -20,3 +20,6 @@ project-2-ml-workflow-for-scones-unlimited/train/*.png
 project-2-ml-workflow-for-scones-unlimited/test/*.png
 project-2-ml-workflow-for-scones-unlimited/cifar-100-python/*
 project-2-ml-workflow-for-scones-unlimited/*.lst
+
+exercices/course-3-deep-learning-topics-with-computer-vision-and-nlp/lesson-2-cd0387-common-model-architecture-types-and-fine-tuning/data/
+exercices/course-3-deep-learning-topics-with-computer-vision-and-nlp/lesson-2-cd0387-common-model-architecture-types-and-fine-tuning/cola_public/
