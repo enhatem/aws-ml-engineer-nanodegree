@@ -23,4 +23,4 @@ project-2-ml-workflow-for-scones-unlimited/*.lst
 
 exercices/course-3-deep-learning-topics-with-computer-vision-and-nlp/lesson-2-cd0387-common-model-architecture-types-and-fine-tuning/data/
 exercices/course-3-deep-learning-topics-with-computer-vision-and-nlp/lesson-2-cd0387-common-model-architecture-types-and-fine-tuning/cola_public/
-exercices/course-3-deep-learning-topics-with-computer-vision-and-nlp/lesson-3-cd0387_deploy_deeplearning_models_on_sagemaker/script_mode/cifar_data/
+exercices/course-3-deep-learning-topics-with-computer-vision-and-nlp/lesson-3-cd0387_deploy_deeplearning_models_on_sagemaker/script_mode/cifar_data/**/job_output/
