@@ -1,0 +1,46 @@
+{
+  "rules": {
+    "LossNotDecreasing": {
+      "triggered": false,
+      "detail": "first 5 steps=7.558, last 5 steps=2.484"
+    },
+    "VanishingGradient": {
+      "triggered": false,
+      "detail": "min mean|grad|=2.12e-05"
+    },
+    "Overfit": {
+      "triggered": true,
+      "detail": "val/train loss ratio=7.51"
+    },
+    "Overtraining": {
+      "triggered": false,
+      "detail": "val losses per epoch=[72085.68, 21.352]"
+    },
+    "DataLoaderBottleneck": {
+      "triggered": true,
+      "detail": "58% of step time spent waiting for data"
+    },
+    "LowGPUUtilization": {
+      "triggered": true,
+      "detail": "median GPU utilisation=0%"
+    }
+  },
+  "timing": {
+    "data_loading_s": 52.300880432128906,
+    "compute_s": 38.59228467941284
+  },
+  "epochs": [
+    {
+      "epoch": 0,
+      "train_loss": 4.655636529922486,
+      "val_loss": 72085.6796875,
+      "val_acc": 0.1084
+    },
+    {
+      "epoch": 1,
+      "train_loss": 2.842482032775879,
+      "val_loss": 21.35163269042969,
+      "val_acc": 0.1231
+    }
+  ]
+}
