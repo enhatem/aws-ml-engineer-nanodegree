@@ -90,7 +90,7 @@ Final training: 5 epochs on `ml.g4dn.xlarge` with the best hyperparameters. **Al
 #### Profiling
 ![System profiling](images/system_profiling.png)
 
-The SageMaker Profiler HTML report can't be generated anymore because the service is deprecated. It's replaced by `rules.json`, `torch_profiler_summary.txt` and the TensorBoard logs in `profiler_output/`. <!-- TODO: check the folder name -->
+The SageMaker Profiler HTML report can't be generated anymore because the service is deprecated. It's replaced by `rules.json`, `torch_profiler_summary.txt` and the TensorBoard logs in `profiler_output/`.
 
 ## Model Deployment
 
