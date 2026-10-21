@@ -28,3 +28,8 @@ cifar_data/
 *.pt.trace.json
 repack/
 *.sagemaker-uploaded
+
+
+project-3-image-classification-using-aws-sagemaker/backup/
+project-3-image-classification-using-aws-sagemaker/data/
+project-3-image-classification-using-aws-sagemaker/job_output/

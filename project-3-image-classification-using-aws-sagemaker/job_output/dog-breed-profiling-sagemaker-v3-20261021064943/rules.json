@@ -1,0 +1,73 @@
+{
+  "rules": {
+    "LossNotDecreasing": {
+      "triggered": false,
+      "detail": "first 5 steps=4.883, last 5 steps=1.079"
+    },
+    "VanishingGradient": {
+      "triggered": false,
+      "detail": "min mean|grad|=2.37e-03"
+    },
+    "Overfit": {
+      "triggered": false,
+      "detail": "val/train loss ratio=0.40"
+    },
+    "Overtraining": {
+      "triggered": false,
+      "detail": "val losses per epoch=[0.909, 0.603, 0.504, 0.429, 0.412]"
+    },
+    "DataLoaderBottleneck": {
+      "triggered": false,
+      "detail": "10% of step time spent waiting for data"
+    },
+    "LowGPUUtilization": {
+      "triggered": false,
+      "detail": "median GPU utilisation=83%"
+    }
+  },
+  "timing": {
+    "data_loading_s": 11.848510503768921,
+    "compute_s": 105.99549412727356
+  },
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_loss": 2.9864131192422803,
+      "val_loss": 0.9089031950442377,
+      "val_acc": 0.7604790419161677,
+      "time_s": 28.76023817062378
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.4182207098369881,
+      "val_loss": 0.6030493757681932,
+      "val_acc": 0.8131736526946107,
+      "time_s": 26.861757516860962
+    },
+    {
+      "epoch": 3,
+      "train_loss": 1.1790938385590624,
+      "val_loss": 0.5043489770618027,
+      "val_acc": 0.8311377245508982,
+      "time_s": 27.03279757499695
+    },
+    {
+      "epoch": 4,
+      "train_loss": 1.1005522785009711,
+      "val_loss": 0.4293914135701642,
+      "val_acc": 0.8634730538922155,
+      "time_s": 26.82946491241455
+    },
+    {
+      "epoch": 5,
+      "train_loss": 1.0199720058314081,
+      "val_loss": 0.411523118432232,
+      "val_acc": 0.8718562874251496,
+      "time_s": 26.96325421333313
+    }
+  ],
+  "test": {
+    "test_loss": 0.45297618017812663,
+    "test_acc": 0.8636363636363636
+  }
+}
