@@ -1,7 +1,7 @@
 """
 Dog breed classification (ResNet50 fine-tuning) - HPO entry point.
 
-This is intentionally a stripped-down version of train_model.py:
+This is intentionally a stripped-down version of train.py:
   - No TensorBoard, no system monitor, no torch.profiler, no rules.
   - Tunes on validation loss only (no test set — avoids data leakage).
   - Prints the metric in the exact format SageMaker's HPO tuner expects
@@ -68,7 +68,7 @@ def net(args):
     model = models.resnet50(weights=models.ResNet50_Weights.DEFAULT)
     for p in model.parameters():          # freeze the pretrained backbone
         p.requires_grad = False
-    model.fc = nn.Sequential(             # new trainable head (same architecture as train_model.py)
+    model.fc = nn.Sequential(             # new trainable head (same architecture as train.py)
         nn.Linear(model.fc.in_features, 256),
         nn.ReLU(),
         nn.Dropout(0.3),

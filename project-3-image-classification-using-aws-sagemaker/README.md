@@ -14,7 +14,7 @@ Built with **SageMaker Python SDK v3** and **PyTorch 2.6 / Python 3.12**. SageMa
 |---|---|
 | `train_and_deploy.ipynb` | HPO, training, profiling, deployment |
 | `hpo.py` | Lightweight script for HPO trials |
-| `train_model.py` | Final training with debugging/profiling |
+| `train.py` | Final training with debugging/profiling |
 | `inference.py` | Endpoint handler |
 | `images/` | README screenshots |
 
