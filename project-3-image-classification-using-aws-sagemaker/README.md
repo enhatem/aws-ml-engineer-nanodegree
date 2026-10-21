@@ -28,7 +28,7 @@ Built with **SageMaker Python SDK v3** and **PyTorch 2.6 / Python 3.12**. SageMa
 
 Data was uploaded to `s3://<default-bucket>/project/data/{train,valid,test}/` and passed to the jobs as the `train`, `valid` and `test` channels.
 
-images/s3_dataset.png
+![S3 Dataset](images/s3_dataset.png)
 
 ## Hyperparameter Tuning
 
@@ -98,7 +98,7 @@ The SageMaker Profiler HTML report can't be generated anymore because the servic
 - **Endpoint:** PyTorch 2.6 CPU inference image on `ml.m5.large`. <!-- TODO: check the instance -->
 - **Preprocessing happens in the endpoint:** clients send raw image bytes and receive the top 3 breeds as JSON.
 
-images/endpoint_inservice.png
+![SageMaker Endpoint In Service](images/endpoint_inservice.png)
 
 ```python
 import json, boto3
